@@ -1,4 +1,3 @@
-@import url(../css/media.css);
 
 *{
     box-sizing: border-box;
@@ -472,14 +471,17 @@ a{
 .what-our-partners-think-block{
     max-width: 1440px;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden; 
 }
 
 .scroll-blocks{
     padding-top: 80px;
     width: 2270px;
-    flex-wrap: wrap;
-    gap: 20px;  
-    /*max-width: 1440px;*/
+    gap: 20px; 
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style: none;
 }
 .partners-block{
     max-width: 847px;
@@ -574,6 +576,8 @@ a{
 .read-our-blog-block{
     max-width: 1440px;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden; 
 }
 
 
@@ -588,9 +592,8 @@ a{
 }
 
 .blog_cards{
-    max-width: 1440px;
+    width: 2165px;
     gap: 52px;
-    flex-wrap: wrap;
 }
 
 .blog_card{
